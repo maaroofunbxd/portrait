@@ -1,0 +1,15 @@
+# Chance without a seed. If you cannot get the same answer twice, it is not
+# a model, it is an anecdote.
+
+simulate crowd
+
+    agents shopper count 5
+        patience starts at 3
+
+    each turn
+        every shopper loses 1 patience
+        chance 1 in 3 : a shopper leaves
+
+    run 5 turns
+
+end

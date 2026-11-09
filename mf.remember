@@ -1,0 +1,36 @@
+# Copy this file. Change the name. Fill it in.
+# Comments and blank lines are ignored, so you can leave them.
+#
+# The checker will refuse the file unless every claim has three things,
+# and it will tell you which one is missing:
+#
+#     when      where does this hold?  A person is not one thing everywhere.
+#     because   what did you actually SEE?  Not what you concluded.
+#     on        when did you learn it?  You will not remember otherwise.
+#
+# "observed" means you saw it.  "inferred" means you worked it out.
+# The difference is the whole point -- a year from now this file will tell
+# you which of the two you are actually good at.
+
+remember Someone
+
+    role            colleague
+    also known as   "S"
+    met             2026-01
+    currently       between projects
+
+    observed qw1
+        when      leaving the room
+        because   picking up helmet,asfd
+        on        2026-02-11
+
+    observed fc1
+        when      dfdsfa
+        because   adfsas
+        on        2026-02-11
+#    inferred dislikes being interrupted
+#        when      mid-sentence, with other people in the room
+#        because   stopped talking and never picked the thread back up
+#        on        2026-03-04
+
+end

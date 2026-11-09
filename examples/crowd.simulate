@@ -1,0 +1,19 @@
+# Many people, interacting.
+#
+# Here the checker asks a third question: could you get this answer twice?
+# Without a seed you could not, and then it would not be a model.
+
+simulate crowd
+
+    seed 12345
+
+    agents shopper count 20
+        patience starts at 10
+
+    each turn
+        every shopper loses 1 patience
+        chance 1 in 6 : a shopper leaves
+
+    run 12 turns
+
+end

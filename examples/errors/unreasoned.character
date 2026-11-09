@@ -1,0 +1,14 @@
+# A character breaks her own nature and the page does not say why.
+# There is no ground truth here to check against, so the only question the
+# checker can ask is: is the reason written down?
+
+character Ada
+
+    trait claustrophobic
+        when      in small enclosed spaces
+
+    scene the-lift
+        does      rides the lift to the ninth floor, calm
+        against   claustrophobic
+
+end

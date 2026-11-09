@@ -1,0 +1,12 @@
+# A trait with no date. You will not remember when you learned this, and
+# the date is the only way to find out later that you were wrong.
+
+remember Ada
+
+    role  friend
+
+    observed patient
+        when      at work
+        because   finished the report at 2am
+
+end

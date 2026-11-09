@@ -1,0 +1,26 @@
+# A person who does not exist.
+#
+# Here the checker cannot ask "did you see this" — there is nothing to see.
+# It asks a different question: if she acts against her own nature, is the
+# reason on the page?
+
+character Ada
+
+    role  protagonist
+
+    trait claustrophobic
+        when      in small enclosed spaces
+
+    trait loyal
+        when      a friend is in trouble
+
+    scene the-lift
+        does      steps into the lift and rides it to the ninth floor
+        against   claustrophobic
+        because   she has decided the fear is a luxury she cannot afford
+
+    scene the-letter
+        does      reads the letter twice, then drives four hours
+        shows     loyal
+
+end

@@ -1,0 +1,30 @@
+# A record of a real person, kept over years.
+#
+# The checker will refuse this file if a claim has no room, no basis, or no
+# date.  It will warn about the inference at the bottom, because two times
+# is not a pattern.
+
+remember Ada
+
+    role            friend
+    also known as   "A", "Ada L"
+    met             2019-04
+    currently       travelling, tired
+
+    observed patient
+        when      the work has a clear deadline
+        because   finished the report at 2am without complaining
+        on        2026-03-14
+
+    observed generous
+        when      someone else is short
+        because   covered the bill twice without mentioning it
+        on        2025-11-02
+
+    inferred dislikes surprises
+        when      plans change without warning
+        because   went quiet, twice
+        on        2026-05-02
+        revised   2026-05-09 "the quiet was about the flight, not the plans"
+
+end

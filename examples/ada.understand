@@ -1,0 +1,24 @@
+# The same person, but here the point is that she is not one thing.
+#
+# The checker refuses a trait claimed in two rooms unless the two are joined
+# by a contrast.  Contradiction is data, not a mistake to be smoothed over.
+
+understand Ada
+
+    role            friend
+    met             2019-04
+
+    observed patient
+        when      at work, with a shared deadline
+        because   stayed late to finish the report with the team
+        on        2026-03-14
+
+    observed patient
+        when      at home, when plans change
+        because   went quiet and left the room
+        on        2026-04-02
+
+    contrast patient
+        because   at work the deadline is shared, so waiting is shared too; at home it is hers alone, and a change takes it away
+
+end
